@@ -1,0 +1,245 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0e6f6; /* light purple */
+}
+
+.custom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #d291bc;
+    color: white;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* Add transition effect */
+}
+
+.logo h3 {
+    margin: 0;
+    font-size: 24px;
+    text-transform: uppercase; /* makes the logo text all caps */
+}
+
+.logo span {
+    color: #633974; /* dark purple */
+    font-weight: bold; /* makes 'Beauty' bold */
+}
+
+.nav_area {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease; /* smooth color transition on hover */
+}
+
+nav ul li a:hover {
+    color: #633974; /* dark purple */
+    text-decoration: none;
+    background-color: #d291bc;
+}
+
+.active{
+    color: #633974;
+}
+/* The Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background-image {
+    /* Replace 'background.jpg' with the path to your image */
+    background: url('../images/nails2.jpg') no-repeat center center; 
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: cover;
+    background-position: center;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.slogan {
+    font-size: 2.5em;
+    color: #d291bc;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 20px; /* Adds some space between the slogan and the button */
+}
+
+
+.custom-btn {
+    background-color: #633974; /* dark purple */
+    padding: 10px 20px;
+    border-radius: 5px; /* Makes the button corners rounded */
+}
+
+.custom-btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.custom-btn:hover{
+    background-color: #d291bc; /* Change background color on hover */
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn a:hover {
+    background-color: #d291bc; /* Change background color on hover */
+    transition: background-color 0.3s ease;
+}
+
+/*Opening Hours */
+.hours {
+    background-color: #f0e6f6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.hours h2 {
+    text-align: center;
+    color: #633974;
+    margin-bottom: 20px;
+}
+
+.hours ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hours ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #d291bc;
+    color: #633974;
+    font-size: 18px;
+}
+
+.hours ul li strong {
+    flex: 1;
+    text-align: left;
+}
+
+.hours ul li span {
+    flex: 1;
+    text-align: right;
+}
+
+/*Services */
+.services, .accessibility, .business-info, .service-options, .amenities {
+    background-color: #f0e6f6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.services h2, .accessibility h2, .business-info h2, .service-options h2, .amenities h2 {
+    text-align: center;
+    color: #633974;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.goodies {
+    background-color: #f0e6f6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.goodies h2 {
+    text-align: center;
+    color: #633974;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    border-bottom: 2px solid #d291bc;
+    padding-bottom: 10px;
+}
+
+.goodies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.goodies ul li {
+    padding: 10px 0;
+    color: #633974;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.goodies p {
+    color: #633974;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.more_goodies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.more_goodies img {
+    max-width: 200px;
+    height: auto;
+}
+
+/*Footer */
+.custom-footer {
+    background-color: #d291bc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.custom-footer a {
+    color: white;
+    text-decoration: none;
+}
